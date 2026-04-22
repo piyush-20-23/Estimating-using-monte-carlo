@@ -78,7 +78,7 @@ def rain(number_of_drops=1000, length_of_field=1, plot=True, format='pdf', dynam
 if __name__ == "__main__":
     # Run the script from cli
     from sys import argv
-    number_of_drops = 100
+    number_of_drops = 100000
     if len(argv) > 1:  # If an argument is passed then change number of drops to be simulated.
         number_of_drops = eval(argv[1])
     # Two sets of simulations
